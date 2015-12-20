@@ -1,0 +1,4 @@
+url=jdbc:mysql://192.168.1.106:3306/test
+driver=com.mysql.jdbc.Driver
+user=hailunz
+password=hailunz

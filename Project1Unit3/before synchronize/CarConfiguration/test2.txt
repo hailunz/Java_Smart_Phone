@@ -1,0 +1,10 @@
+Autoname=Toyota Camery
+Baseprice=10000
+Color=Fort Knox Gold Clearcoat Metallic@0,Liquid Grey Clearcoat Metallic@0
+Brakes/Traction Control=Standard@0,ABS@100,ABS with Advance Trac@200
+Side Impact Air Bags=present@50,not present@0
+Power Moonroof=present@50,not present@0
+Option[Color]=Fort Knox Gold Clearcoat Metallic
+Option[Brakes/Traction Control]=Standard
+Option[Side Impact Air Bags]=present
+Option[Power Moonroof]=not present

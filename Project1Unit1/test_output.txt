@@ -1,0 +1,222 @@
+Automotive:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $595.0
+-- Option[not present]- $0.0
+
+Automotive:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $595.0
+-- Option[not present]- $0.0
+
+Automotive:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $595.0
+
+Automotive:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+
+Automotive:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $10.0
+
+Automotive:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[colorr]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $10.0
+
+
+Process finished with exit code 0

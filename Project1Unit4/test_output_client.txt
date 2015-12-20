@@ -1,0 +1,152 @@
+*** Welcome to the User Interface! ***
+*** This is a Car Configuration client. ***
+*** To use this program, follow the instructions below. ***
+
+* Give server name:
+localhost
+* Give server port:
+12345
+
+* * * * * * * * * * * * * * *
+test 1.Load and send property file
+Handling session with localhost:12345
+
+* * * * * * * * * * * * * * *
+main wait, type your command:
+Usage-
+1.Load and send property file
+2.Send txt file
+3.Request available model
+bye: to exit 
+>
+1
+give property file path:/Users/hailunzhu/cmu/course/18641/hailunz_project1/Project1Unit4/client/CarConfiguration/test.txt
+Build model successfully!
+sock is dead.
+closing socket to localhost
+
+* * * * * * * * * * * * * * *
+2.Send txt file
+Handling session with localhost:12345
+
+* * * * * * * * * * * * * * *
+main wait, type your command:
+Usage-
+1.Load and send property file
+2.Send txt file
+3.Request available model
+bye: to exit 
+>
+2
+give txt file path:/Users/hailunzhu/cmu/course/18641/hailunz_project1/Project1Unit4/client/CarConfiguration/test3.txt
+closing socket to localhost
+Build model successfully!
+sock is dead.
+
+* * * * * * * * * * * * * * *
+3.Request available model
+Handling session with localhost:12345
+
+* * * * * * * * * * * * * * *
+main wait, type your command:
+Usage-
+1.Load and send property file
+2.Send txt file
+3.Request available model
+bye: to exit 
+>
+3
+Request available modelAvailable models:
+Focus Wagon ZTW Toyota Corola 
+Enter modelname:Toyota Corola
+Automobile:[Toyota Corola] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+Haven't choose.
+
+Car configuration:Automobile:[Toyota Corola] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+Haven't choose.
+
+Choose optionset:
+Brakes/Traction Control
+Choose option:
+ABS
+Choose optionset:
+Side Impact Air Bags
+Choose option:
+present
+Choose optionset:
+end
+closing socket to localhost
+Display the options:
+Automobile:[Toyota Corola] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+-- Option[ABS]- $100.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+-- Option[present]- $50.0
+
+sock is dead.

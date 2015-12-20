@@ -1,0 +1,189 @@
+Automobile:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[Sangria Red Clearcoat Metallic]- $0.0
+-- Option[French Blue Clearcoat Metallic]- $0.0
+-- Option[Twilight Blue Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+-- Option[Pitch Black Clearcoat]- $0.0
+-- Option[Cloud 9 White Clearcoat]- $0.0
+My Choice: 
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+My Choice: 
+-- Option[automatic]- $0.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $400.0
+-- Option[ABS with Advance Trac]- $1625.0
+My Choice: 
+-- Option[Standard]- $0.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+My Choice: 
+-- Option[present]- $350.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $350.0
+-- Option[not present]- $0.0
+My Choice: 
+-- Option[not present]- $0.0
+
+Automobile:[Toyota Camery] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+My Choice: 
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+-- Option[Standard]- $0.0
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+-- Option[present]- $50.0
+
+* OptionSet[Power Moonroof]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+-- Option[not present]- $0.0
+
+Automobile:[Toyota Corola] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+Haven't choose.
+
+Automobile:[Toyota Corola] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[MyColor]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $10.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $50.0
+-- Option[not present]- $0.0
+My Choice: 
+-- Option[present]- $50.0
+
+Total price for Toyota Camery
+10050.0
+Total price for Toyota Corola
+10050.0
+
+==========Test Exception===============
+Error: 3
+Missing filename or wrong filename.
+Please enter a new filename:
+test4.txt
+Option Data for OptionSet Color
+Error: 2
+Missing Option data in text file.
+Please enter a new Option data:
+white@0
+OptionSet Data for OptionSet Side Impact Air Bags
+Error: 1
+Missing OptionSet data in text file.
+Please enter a new OptionSet data:
+present@0,not present@0
+Error: 0
+Missing price for Automobile in text file!
+Please enter a new baseprice:
+10000
+Error: 4
+Missing name for Automobile in text file
+Please enter a new name:
+My model
+Automobile:[My model] 
+baseprice: 10000.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[white]- $0.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Brakes/Traction Control]
+- Options:
+-- Option[Standard]- $0.0
+-- Option[ABS]- $100.0
+-- Option[ABS with Advance Trac]- $200.0
+My Choice: 
+Haven't choose.
+
+* OptionSet[Side Impact Air Bags]
+- Options:
+-- Option[present]- $0.0
+-- Option[not present]- $0.0
+My Choice: 
+Haven't choose.
+
+
+==========Test Exception Log===============

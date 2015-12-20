@@ -1,0 +1,8 @@
+Autoname=Focus Wagon ZTW
+Make=Focus
+Model=Wagon ZTW
+Baseprice=18445
+Color=Fort Knox Gold Clearcoat Metallic@0,Liquid Grey Clearcoat Metallic@0,Infra-Red Clearcoat@0,Grabber Green Clearcoat Metallic@0,CD Silver Clearcoat Metallic@0
+Transmission=automatic@0,manual@-815,mix@1000,mix2@100
+Option[Color]=Fort Knox Gold Clearcoat Metallic
+Option[Transmission]=automatic

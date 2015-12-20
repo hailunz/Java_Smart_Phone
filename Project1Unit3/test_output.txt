@@ -1,0 +1,103 @@
+1.  Before synchronize - data is corrupted. The read after edit should give the new value, but give the old value. In the second test, The read before edit should give the old value, but gave the new value. And the addOptionChoicePrice is not atomically they are interleaving.
+
+Automobile:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+My Choice: 
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+-- Option[mix]- $1000.0
+-- Option[mix2]- $100.0
+My Choice: 
+-- Option[automatic]- $0.0
+
+
+==========Test change Option Choice ===============
+test set option choice
+Focus Wagon ZTW OptionSet[Transmission] - Choice:
+automatic
+t2 is dead.
+t1 is dead.
+
+==========Test change Option Choice Price===============
+t1 is dead.
+Focus Wagon ZTW OptionSet[Transmission] - choice price:
+10.0
+t2 is dead.
+==========Test change Option Choice Price===============
+test4
+test5
+Focus Wagon ZTW OptionSet[Transmission] - choice price:
+30.0
+test5:30.0
+Focus Wagon ZTW OptionSet[Transmission] - choice price:
+30.0
+t2 is dead.
+test4:30.0
+t1 is dead.
+
+
+2. After synchronization
+
+data is not corrupted. The read after edit gives the new value. In the second test, The read before edit gives the old value.
+
+Automobile:[Focus Wagon ZTW] 
+baseprice: 18445.0
+
+OptionSets:
+* OptionSet[Color]
+- Options:
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+-- Option[Liquid Grey Clearcoat Metallic]- $0.0
+-- Option[Infra-Red Clearcoat]- $0.0
+-- Option[Grabber Green Clearcoat Metallic]- $0.0
+-- Option[CD Silver Clearcoat Metallic]- $0.0
+My Choice: 
+-- Option[Fort Knox Gold Clearcoat Metallic]- $0.0
+
+* OptionSet[Transmission]
+- Options:
+-- Option[automatic]- $0.0
+-- Option[manual]- $-815.0
+-- Option[mix]- $1000.0
+-- Option[mix2]- $100.0
+My Choice: 
+-- Option[automatic]- $0.0
+
+
+==========Test change Option Choice ===============
+test set option choice
+t1 is dead.
+Focus Wagon ZTW OptionSet[Transmission] - Choice:
+manual
+t2 is dead.
+
+==========Test change Option Choice Price===============
+Focus Wagon ZTW OptionSet[Transmission] - choice price:
+-815.0
+t1 is dead.
+t2 is dead.
+==========Test change Option Choice Price===============
+test4
+test5
+Focus Wagon ZTW OptionSet[Transmission] - choice price:
+20.0
+test4:20.0
+t1 is dead.
+Focus Wagon ZTW OptionSet[Transmission] - choice price:
+30.0
+test5:30.0
+t2 is dead.
+

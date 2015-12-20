@@ -1,0 +1,90 @@
+Create Table if not exist.
+Opening db connection
+CREATE TABLE Automobile(    id INTEGER not NULL AUTO_INCREMENT,     name VARCHAR(255) not null Unique,    make VARCHAR(255),    model VARCHAR(255),    base_price FLOAT not NULL,    PRIMARY KEY (id));
+executed!
+CREATE TABLE OptionSet(    id INTEGER not NULL AUTO_INCREMENT,     name VARCHAR(255) not NULL,    auto_id INTEGER not NULL,     PRIMARY KEY (id),    FOREIGN KEY (auto_id)     REFERENCES Automobile(id)    ON DELETE CASCADE);
+executed!
+CREATE TABLE Options(    id INTEGER not NULL AUTO_INCREMENT,     name VARCHAR(255) not NULL,    price FLOAT,    optset_id INTEGER,    PRIMARY KEY (id),    FOREIGN KEY(optset_id)    REFERENCES OptionSet(id)    ON DELETE CASCADE);
+executed!
+
+test with LinkedHashMap.
+Add model
+Opening db connection
+INSERT INTO Automobile (name, make, model, base_price) VALUES ('Toyota Corola','Toyato','Corola',10000.0);
+insert to automobile id:1
+INSERT INTO OptionSet (name, auto_id) VALUES( 'Color',1);
+insert to optionSet id:1
+insert to option.
+insert to option.
+INSERT INTO OptionSet (name, auto_id) VALUES( 'Brakes/Traction Control',1);
+insert to optionSet id:2
+insert to option.
+insert to option.
+insert to option.
+INSERT INTO OptionSet (name, auto_id) VALUES( 'Side Impact Air Bags',1);
+insert to optionSet id:3
+insert to option.
+insert to option.
+Opening db connection
+INSERT INTO Automobile (name, make, model, base_price) VALUES ('Focus Wagon ZTW','Focus','Wagon ZTW',18445.0);
+insert to automobile id:2
+INSERT INTO OptionSet (name, auto_id) VALUES( 'Color',2);
+insert to optionSet id:4
+insert to option.
+insert to option.
+insert to option.
+insert to option.
+insert to option.
+INSERT INTO OptionSet (name, auto_id) VALUES( 'Transmission',2);
+insert to optionSet id:5
+insert to option.
+insert to option.
+insert to option.
+insert to option.
+Delete model
+Opening db connection
+delete automobile with id :1
+Update model
+Opening db connection
+UPDATE OptionSet SET name='myColor' where name='Color' and auto_id=2;
+Update option price
+Opening db connection
+Select id from OptionSet where name='myColor' and auto_id=2;
+Update option name
+Opening db connection
+Select id from OptionSet where name='myColor' and auto_id=2;
+
+
+mysql> select * from Automobile;
++----+-----------------+-------+-----------+------------+
+| id | name            | make  | model     | base_price |
++----+-----------------+-------+-----------+------------+
+|  2 | Focus Wagon ZTW | Focus | Wagon ZTW |      18445 |
++----+-----------------+-------+-----------+------------+
+1 row in set (0.00 sec)
+
+mysql> select * from OptionSet;
++----+--------------+---------+
+| id | name         | auto_id |
++----+--------------+---------+
+|  4 | myColor      |       2 |
+|  5 | Transmission |       2 |
++----+--------------+---------+
+2 rows in set (0.00 sec)
+
+mysql> select * from Options;
++----+-----------------------------------+-------+-----------+
+| id | name                              | price | optset_id |
++----+-----------------------------------+-------+-----------+
+|  8 | Fort Knox Gold Clearcoat Metallic |     0 |         4 |
+|  9 | Liquid Grey Clearcoat Metallic    |     0 |         4 |
+| 10 | Infra-Red Clearcoat               |     0 |         4 |
+| 11 | red                               |   100 |         4 |
+| 12 | CD Silver Clearcoat Metallic      |     0 |         4 |
+| 13 | automatic                         |     0 |         5 |
+| 14 | manual                            |  -815 |         5 |
+| 15 | mix                               |  1000 |         5 |
+| 16 | mix2                              |   100 |         5 |
++----+-----------------------------------+-------+-----------+
+9 rows in set (0.00 sec)
+

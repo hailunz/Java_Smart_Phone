@@ -1,0 +1,3 @@
+Color=Fort Knox Gold Clearcoat Metallic@0,Liquid Grey Clearcoat Metallic
+Brakes/Traction Control=Standard@0,ABS@100,ABS with Advance Trac@200
+Side Impact Air Bags=

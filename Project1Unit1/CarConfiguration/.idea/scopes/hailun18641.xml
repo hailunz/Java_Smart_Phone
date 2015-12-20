@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="hailun18641" pattern="file[CarConfiguration]:*||file[CarConfiguration]:*/" />
+</component>
